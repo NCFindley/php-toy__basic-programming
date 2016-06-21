@@ -27,7 +27,7 @@ else{
 }
 echo "\n-------------------------------------------------------------------\n";
 
-echo "\nTesting should return 3,2,10.\n";
+echo "\nTesting should return 3,2.\n";
 if (filterNumbers([3,2,10,12,15]) == [3,2]) {
   echo "Success!";
 }
