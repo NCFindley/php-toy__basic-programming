@@ -7,8 +7,13 @@
 // Run `bin/check` from the command line to execute the automated tests.
 
 function isGreaterThanFive($num) {
-  // Your code goes here.
-  return false;
+  
+  if ($num > 5) {
+  	return true;
+  } else {
+  	return false;
+  }
+
 }
 
 // Write your own "tests" below. A couple examples are provided for you.
